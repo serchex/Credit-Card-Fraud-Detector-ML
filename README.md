@@ -1,5 +1,8 @@
 # 🚨 Fraud Detection — LiveStream Monitor
 
+## CHECK CREDIT CARD FRAUD ON A SIMULATION LIVE STREAM HERE ↓
+**https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app**
+
 This project implements a **credit card fraud detection system** using **CatBoostClassifier**, with an interactive **Streamlit frontend** that simulates live transactions and evaluates model performance.
 
 ## Overview
