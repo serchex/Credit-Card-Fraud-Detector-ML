@@ -64,15 +64,6 @@ Confusion matrix: evaluates false positives and false negatives.
 
 PR and ROC curves: visual summary of model performance.
 
-📂 Project Structure
-.
-├── Data.py                    # Training script with CatBoost + SMOTE
-├── app.py                     # Streamlit app (live fraud detection)
-├── fraude_model.cbm           # Trained CatBoost model
-├── fraude_threshold.json      # Saved threshold (JSON format)
-├── sample_creditcard_demo.csv # Demo dataset
-└── creditcard.csv             # Original dataset (not included due to size)
-
 Notes
 
 The dataset is highly imbalanced (<1% fraud cases), so class_weights and SMOTE are used to handle imbalance.
