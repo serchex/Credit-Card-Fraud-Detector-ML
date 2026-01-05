@@ -56,7 +56,7 @@ streamlit run app.py
 
 The application will open in your browser at localhost.
 
- Example Output
+* Example Output
 
 Transaction view: displays fraud probability per transaction compared to the threshold.
 
