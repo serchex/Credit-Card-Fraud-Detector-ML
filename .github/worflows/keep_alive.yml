@@ -1,0 +1,13 @@
+name: keep streamlit alive
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ping streamlit app
+      run:  | 
+        curl -s https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app > /dev/null
