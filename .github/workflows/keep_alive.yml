@@ -12,3 +12,4 @@ jobs:
       - name: ping streamlit app
         run: |
           curl -s https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app > /dev/null || true
+          curl -s https://house-prices-ml-prediction-sergio-gonzalez.streamlit.app > /dev/null || true          
