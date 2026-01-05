@@ -1,4 +1,4 @@
-# 🚨 Fraud Detection — LiveStream Monitor
+#  Fraud Detection — LiveStream Monitor
 
 ## CHECK CREDIT CARD FRAUD ON A SIMULATION LIVE STREAM HERE ↓
 **https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app**
@@ -56,7 +56,7 @@ streamlit run app.py
 
 The application will open in your browser at localhost.
 
-📊 Example Output
+ Example Output
 
 Transaction view: displays fraud probability per transaction compared to the threshold.
 
@@ -75,7 +75,7 @@ model = CatBoostClassifier(task_type='CPU', ...)
 
 The project is designed both for exploratory analysis and as a portfolio-ready demonstration.
 
-🏆 Credits
+ Credits
 
 Original dataset: Kaggle - Credit Card Fraud Detection
 
