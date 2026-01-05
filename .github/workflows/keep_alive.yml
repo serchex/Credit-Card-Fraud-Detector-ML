@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: ping streamlit app
         run: |
-          curl -s https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app > /dev/null
+          curl -s https://credit-card-fraud-detector-ml-sergio-gonzalez.streamlit.app > /dev/null || true
